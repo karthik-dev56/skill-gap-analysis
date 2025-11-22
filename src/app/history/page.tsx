@@ -51,11 +51,11 @@ export default function HistoryPage() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       {/* Info message for Vercel/production */}
-      {/* <div className="container mx-auto px-4 pt-6">
+      <div className="container mx-auto px-4 pt-6">
         <div className="bg-yellow-100 dark:bg-yellow-900/20 border border-yellow-300 dark:border-yellow-800 rounded-lg p-4 mb-6 text-center">
           <span className="text-yellow-800 dark:text-yellow-200 font-semibold">Note:</span> Analysis history works <b>only in local development</b>. On Vercel or other serverless platforms, history will not be saved or loaded.
         </div>
-      </div> */}
+      </div>
       {/* Header */}
       <div className="bg-white dark:bg-gray-800 shadow-sm">
         <div className="container mx-auto px-4 py-6">

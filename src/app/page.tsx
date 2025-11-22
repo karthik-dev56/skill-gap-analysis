@@ -28,7 +28,7 @@ export default function Home() {
         targetRole: role.trim(),
         currentSkills: skills.trim()
       }
-      localStorage.setItem('careerInput',JSON.stringify(inputData));
+      sessionStorage.setItem('careerInput',JSON.stringify(inputData));
       router.push('/dashboard')
     }catch(error) {
       errorMessage('Something went wrong. Please try again.');
