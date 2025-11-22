@@ -58,7 +58,7 @@ export default function Dashboard() {
     const fetchData = async () => {
       try {
        
-        const storedData = sessionStorage.getItem('careerInput');
+        const storedData = localStorage.getItem('careerInput');
         if (!storedData) {
           router.push('/');
           return;
